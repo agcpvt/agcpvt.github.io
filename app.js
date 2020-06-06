@@ -1,3 +1,5 @@
+
+ if ('serviceWorker' in navigator) {  navigator.serviceWorker.register('./sw.js'); }
 var firebaseConfig = {
         apiKey: "AIzaSyD0Oya1Bd5ePTurIcGN5v7hTz1T57PycE4",
         authDomain: "sale-7a4a4.firebaseapp.com",
