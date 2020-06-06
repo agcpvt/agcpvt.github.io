@@ -5,20 +5,12 @@
     "scope" : "./",
     "icons": [
         {
-<<<<<<< HEAD
-            "src": "https://www.flaticon.com/authors/freepik",
-=======
             "src": "/interest.png",
->>>>>>> e9b5174a3402fd7285ea47ea4b22701be88bdfdf
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-<<<<<<< HEAD
-            "src": "https://www.flaticon.com/authors/freepik",
-=======
             "src": "/interest.png",
->>>>>>> e9b5174a3402fd7285ea47ea4b22701be88bdfdf
             "sizes": "512x512",
             "type": "image/png"
         }
