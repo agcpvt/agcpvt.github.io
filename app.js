@@ -35,6 +35,7 @@ const SaveData = ()=>{
     .set(objectifyForm($('form')
     .serializeArray()))
     .then(()=>{
+        $('input').val('');
         revertBtnStyle('btnSave','Save');
         $('#successMsg').show();
         setTimeout(()=>{
