@@ -68,7 +68,7 @@ const getAllData = () => {
                     <td>${doc.data().TradePrice}</td>
                     <td>${doc.data().ExpiryDate}</td>
                     <td>${doc.data().qty}</td>
-                    <td>${doc.data().totalAmount}</td>
+                    <td>${doc.data().qty*doc.data().TradePrice}</td>
                 </tr>
             
             `;
