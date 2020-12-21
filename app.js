@@ -71,6 +71,7 @@ const getAllData = () => {
                     <td>${doc.data().ExpiryDate}</td>
                     <td>${doc.data().qty}</td>
                     <td>${doc.data().qty * doc.data().TradePrice}</td>
+                    <td>${doc.data.intmonth}</td>
                 </tr>
             
             `;
